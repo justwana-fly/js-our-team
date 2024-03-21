@@ -20,7 +20,19 @@ const membri = [
 // MILESTONE 1:
 // Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
 membri.forEach(membro => {
-    console.log(`Nome: ${membro.name}, Ruolo: ${membro.ruolo}, Foto: ${membro.foto}`);
+    console.log(`${membro.name}, ${membro.ruolo}, ${membro.foto}`);
+    
+    const container = document.getElementById("container");
+container.innerHTML = `
+<div class="card-3">
+<div class="card" >
+    <img src="img/wayne-barnett-founder-ceo.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+        <p class="card-text text-center gray fw-bold m-0">${membro.name}</p>
+        <p class="text-center gray m-0">${membro.ruolo}</p>
+    </div>
+</div>
+`
 });
 
 
