@@ -11,7 +11,7 @@
 const membri = [
     {name: `Wayne Barnett`, ruolo: `Founder & CEO`, foto: `wayne-barnett-founder-ceo.jpg`},
     {name: `Angela Caroll`, ruolo: `Chief Editor`, foto: `angela-caroll-chief-editor.jpg`},
-    {name: `Walter Gordon`, ruolo: `Office Manager`, foto: `wayne-barnett-founder-ceo.jpg`},
+    {name: `Walter Gordon`, ruolo: `Office Manager`, foto: `walter-gordon-office-manager.jpg`},
     {name: `Angela Lopez`, ruolo: `Social Media Manager`, foto: `angela-lopez-social-media-manager.jpg`},
     {name: `Scott Estrada`, ruolo: `Developer`, foto: `scott-estrada-developer.jpg`},
     {name: `Barbara Ramos`, ruolo: `Graphic Designer`, foto: `barbara-ramos-graphic-designer.jpg`},
@@ -45,16 +45,3 @@ membri.forEach(membro => {
     const container = document.getElementById("container");});
 
 
-
-// BONUS 1:
-// Trasformare la stringa foto in una immagine effettiva
-
-
-
-// BONUS 2:
-// Organizzare i singoli membri in card/schede
-
-
-
-// BONUS 3:
-// Permettere l'aggiunta di un nuovo membro del team
