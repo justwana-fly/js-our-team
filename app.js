@@ -17,10 +17,11 @@ const membri = [
     {name: `Barbara Ramos`, ruolo: `Graphic Designer`, foto: `barbara-ramos-graphic-designer.jpg`},
 ];
 
-
 // MILESTONE 1:
 // Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
-
+membri.forEach(membro => {
+    console.log(`Nome: ${membro.name}, Ruolo: ${membro.ruolo}, Foto: ${membro.foto}`);
+});
 
 
 // MILESTONE 2:
