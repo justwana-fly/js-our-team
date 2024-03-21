@@ -12,7 +12,7 @@ const membri = [
     {name: `Wayne Barnett`, ruolo: `Founder & CEO`, foto: `wayne-barnett-founder-ceo.jpg`},
     {name: `Angela Caroll`, ruolo: `Chief Editor`, foto: `angela-caroll-chief-editor.jpg`},
     {name: `Walter Gordon`, ruolo: `Office Manager`, foto: `wayne-barnett-founder-ceo.jpg`},
-    {name: `Angela Lopez`, ruolo: ` Social Media Manager`, foto: `angela-lopez-social-media-manager.jpg`},
+    {name: `Angela Lopez`, ruolo: `Social Media Manager`, foto: `angela-lopez-social-media-manager.jpg`},
     {name: `Scott Estrada`, ruolo: `Developer`, foto: `scott-estrada-developer.jpg`},
     {name: `Barbara Ramos`, ruolo: `Graphic Designer`, foto: `barbara-ramos-graphic-designer.jpg`},
 ];
