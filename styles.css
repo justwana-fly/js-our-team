@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #F5F5F1;
-   
-   
+    background-color: #F5F5F1; 
 }
 
 #container {
@@ -15,18 +13,20 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
- .card-3 {
-    width: 70%;
+.card-3 {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-   
- }
-div.card {
-    width: 100%;
+    flex-wrap: wrap; 
+}
+
+ div.card {
+    width: calc(33.33% - 30px); 
     margin: 15px;
     border: none;
 }
+
 .gray {
     color: #6F6962;
 }

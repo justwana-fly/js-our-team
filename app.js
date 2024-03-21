@@ -19,25 +19,30 @@ const membri = [
 
 // MILESTONE 1:
 // Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
+// MILESTONE 2:
+// Stampare le stesse informazioni su DOM sottoforma di stringhe
+const container = document.getElementById("container");
+
 membri.forEach(membro => {
-    console.log(`${membro.name}, ${membro.ruolo}, ${membro.foto}`);
-    
-    const container = document.getElementById("container");
-container.innerHTML = `
-<div class="card-3">
-<div class="card" >
-    <img src="img/wayne-barnett-founder-ceo.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-        <p class="card-text text-center gray fw-bold m-0">${membro.name}</p>
-        <p class="text-center gray m-0">${membro.ruolo}</p>
-    </div>
-</div>
-`
+    // Genera una stringa HTML per ogni card
+    const cardHTML = `
+        <div class="card">
+            <img src="img/${membro.foto}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text text-center gray fw-bold m-0">${membro.name}</p>
+                <p class="text-center gray m-0">${membro.ruolo}</p>
+            </div>
+        </div>
+    `;
+    // Aggiungi la stringa HTML generata al contenitore DOM
+    container.innerHTML += cardHTML;
 });
 
 
-// MILESTONE 2:
-// Stampare le stesse informazioni su DOM sottoforma di stringhe
+membri.forEach(membro => {
+    console.log(`${membro.name}, ${membro.ruolo}, ${membro.foto}`);
+    
+    const container = document.getElementById("container");});
 
 
 
